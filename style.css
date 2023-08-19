@@ -1,0 +1,69 @@
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #333; /* Customize the background color */
+    color: white; 
+    padding: 10px 0;
+    text-align: right;
+}
+.navbar .left {
+    flex: 1;
+    text-align: left; /* Align items to the left */
+    margin-left: 15px; /* Add some left margin */
+}
+.navbar .right {
+    
+    text-align: right; /* Align items to the right */
+    margin-right: 15px; /* Add some right margin */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+/* Hover effect for links */
+.navbar a:hover {
+    border-bottom: 2px solid white; /* Add an underline on hover */
+}
+.reg_form{
+   
+    width: 50vw;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 25%;
+   
+}
+input{
+    width:100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: gray;
+}
+.out_table{
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    height: 100%;
+    
+}
+.nest_t{
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+}
+.table_div{
+    margin-left: 25%;
+    width: 50vw;
+}
